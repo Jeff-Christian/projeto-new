@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    position: relative;
+    background-color: red;
+    height: 100px;
+}
+
+#firework{
+    position: absolute;
+    width: 100px;
+    box-sizing: border-box;
+    top: -35px;
+}
+
+.title{
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    font-size: 50px;
+    color: black;
+}
+
+.icons{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.icons li{
+    font-size: 30px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
+#btn-login{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: blue;
+}
+
+/* conteudo */
+
+.container{
+    display: flex;
+}
+
+.news{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 90%;
+    height: 400px;
+    background-color: #fff;
+}
+
+.picture-news{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+    background-size: cover;
+}
+
+.news1, .news2{
+    margin-top: 10px;
+    height: 180px;
+}
+
+.news1 h3, .news2 h3{
+    display: inline-block;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.report{
+    width: 200px;
+    position: relative;
+    bottom: 108px;
+    left: 230px;
+}
+
+.picture-news2{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
