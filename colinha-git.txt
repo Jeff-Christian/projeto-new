@@ -1,0 +1,35 @@
+comandos bash/ linux/ git:
+
+"$ cd ~" = voltar para a pasta principal
+"$ pwd" = saber qual diretorio esstá sendo visto
+"$ ls" = listar tudo que tem dentro do diretorio
+"$ git init" = inicializa o repositório no diretório
+"$ git merge" = mescla os commits realizados por diferentes branchs
+"$ git rebase" = mescla os commits realizados por branchs diferentes sem unilas em um unico commit, gerando o seguinte individual
+"$ git branch" = criar novas branch
+"$ git checkout" = trocando os estados dos repositorios
+"$ git checkout -- *arquivo*" = Desfazendo modificações direcionados ao commit
+"$ git reset HEAD" = caso o arquivo tenha sido direcionado para commit mas não finalizado
+"$ git revert *hash* = Revertendo um commit feito
+"$ git stash" = utilizado para salvar alterações ainda não confirmadas
+"$ git stash apply" = aplicar as alterações salvas
+"$ git stash drop" = retirar a correção salva
+"$ git stash pop" = aplicar e retirar as alterações salvas
+"$ git diff" = Mostra as atuais alterações que ainda não foram adicionadas
+"$ git reflog" = hashs de todos os commits feitos
+"$ git reset --hard = "hash do commit que você que voltar!" " = Mostra as atuais alterações que ainda não foram adicionadas
+"$ git checkout -b 'nome da branch' = criando e entrando na nova branch
+"$ git remote rename 'old-name' 'new-name' = renomeia o remoto
+"$ git remote rm 'nome do remoto' = remove o repositorio remoto
+"$ git remote -v = mostra o link do remote"
+"$ git push -f origin HEAD^:master = remove o ultimo push
+"$ rm -rf 'repository/folder' = remove o repositorio local
+
+
+
+
+
+
+
+
+
