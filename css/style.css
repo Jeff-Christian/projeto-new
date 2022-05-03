@@ -4,12 +4,12 @@
 }
 
 body{
-    background-color: black;
+    background-color: #012030;
 }
 
 nav{
     position: relative;
-    background-color: red;
+    background-color: #136780;
     height: 100px;
 }
 
